@@ -1,0 +1,23 @@
+---
+
+  ID    : a_10
+  Title : Create popup in Vim
+  Date  : 2022-4-8 16:09
+
+---
+
+#vim-popup
+
+Vim provides a good and easy way to create popup which can be thought of as
+modals, to show information or interact with the user outside of usual windows.
+Each popup has it's own window id.
+
+e.g. : call popup_create("some text", {});
+
+The first arguments is the data to be shown and the second argument is a
+dictionnary of some options to configure the popup.
+
+References:
+  - Vim official documentation
+  - 
+

@@ -1,0 +1,27 @@
+---
+
+  ID    : a_7
+  Title : The Harris and Benedict metabolism equation
+  Date  : 2022-4-4 19:01
+
+---
+
+#base-metabolism
+
+The Harris and Benedict metabolism equation is a mathematical formulae to find
+out a person's base metabolism, formulated in kcal, for a single day. 
+
+For men	  : 66.5 + (13.75*(Weight in kg)) + (5*(taille in cm)) - (6.77*(age))
+For women : 655.1 + (9.56*(Weight in kg)) + (1.85*(taille in cm)) - (4.67*(age))
+
+As an example a 37 years old men of about 90kg and 187cm will have a base
+metabolism of about 1988kcal per day. 
+
+Usually to this number we add the daily activity coefficient which represent the
+amound of kcal needed to support daily activity of a person above his base
+metabolism.
+
+References:
+  - @r_6
+  - 
+

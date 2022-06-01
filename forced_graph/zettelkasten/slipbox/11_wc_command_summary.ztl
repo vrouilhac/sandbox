@@ -1,0 +1,20 @@
+---
+
+  ID    : a_11
+  Title : WC command summary
+  Date  : 2022-4-9 17:19
+
+---
+
+#wc-bascis
+
+wc stands for word count and is a command that is used to count words,
+characters, lines or bytes inside files or text.
+see @r_11
+e.g. : $ wc -l file.txt
+returns the number of lines inside file.txt
+
+References:
+  - man documentation of wc
+  - 
+

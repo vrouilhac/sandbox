@@ -1,0 +1,19 @@
+---
+
+  ID    : a_2a
+  Title : Save all before quitting vim
+  Date  : 2022-5-6 08:45
+
+---
+
+If we have lots of file with changes, instead of going through all the files,
+and saving one by one, there is a save all that vim provides us with. 
+
+e.g. : `:wa`
+
+The `a` here means `all`
+
+References:
+  - @a_2
+  - 
+

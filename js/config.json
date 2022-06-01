@@ -1,0 +1,6 @@
+{
+  "test": {
+    "something": "hello",
+    "regex": "(^|\s)[ar]_[0-9a-z]*(\s|$|.)"
+  }
+}

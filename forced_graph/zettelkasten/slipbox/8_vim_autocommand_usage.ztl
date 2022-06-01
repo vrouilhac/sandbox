@@ -1,0 +1,25 @@
+---
+
+  ID    : a_8
+  Title : Vim's autocommand usage
+  Date  : 2022-4-7 12:21
+
+---
+
+#vim-autocmd
+
+Vim's autocommand feature allows us to run command based on events such as the
+one in NodeJS, we setup the event to listen for a certain event and apply a
+command to it. Vim also allow us to filtet the event with a pattern.
+
+e.g
+
+autocmd BufWritePre *.txt :echo "I write when write"
+
+The command above will run every time we write (before the write on file) in a
+.txt file, and print the message.
+
+References:
+  - @r_7
+  - 
+

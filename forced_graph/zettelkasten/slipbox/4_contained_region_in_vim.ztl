@@ -1,0 +1,29 @@
+---
+
+  ID    : a_4
+  Title : Contained match in vim
+  Date  : 2022-3-27 10:09
+
+---
+
+#vim-syntax #vim-syntax-region
+
+To make a match working only inside a region, vim makes us the possibility to
+add a keyword when declaring a match syntax. The only thing we need to do is to
+add `contained` keyword to the declaration of a match, and it will only appear
+inside the region it is contained into.
+
+e.g
+
+```
+# Match
+syn match myMatch "match" contained
+
+# Region
+syn region start="**" end="**" contains=myMatch
+```
+
+References:
+  - The vim documentation
+  - @r_1
+

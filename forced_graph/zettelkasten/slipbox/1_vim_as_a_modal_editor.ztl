@@ -1,0 +1,28 @@
+---
+
+  ID    : a_1
+  Title : Vim as a modal editor
+  Date  : 2022-3-19 17:50
+
+---
+
+#vim-basics
+
+Vim, unlike many other editors, is a modal editor, which means that when we use
+Vim, we enter in a first mode and each key is mapped to perform certains actions
+related to the mode we are in. Certain keys or combinations of key allows us to
+change mode which changes some key binding. This allows us to perform multiple
+actions such as writing as any other editor would allow us to do, but also
+select words, sentences, etc... visually, or copy and paste, repeat actions,
+and so more, everything without leaving the keyboard.
+
+ @a_1a
+
+ @a_10
+
+ @r_1
+
+References:
+  - The Vim help documentation
+  - 
+

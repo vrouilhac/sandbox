@@ -1,0 +1,25 @@
+---
+
+  ID    : a_9
+  Title : A base usage of vimscript input function
+  Date  : 2022-4-8 15:42
+
+---
+
+#vim-function-input
+
+Vim provides a way to prompt user something and ask him an input. Using
+vimscript there is the input() function which returns the input of the user as a
+string. 
+
+More info :h input()
+
+It's first argument is a string which will be prompted to the user inside the
+command area, followed by the user input.
+
+e.g : call input("How are you doin' ?")
+
+References:
+  - Vim official documentation
+  - 
+

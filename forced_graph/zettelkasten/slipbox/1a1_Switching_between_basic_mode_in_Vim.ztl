@@ -1,0 +1,25 @@
+---
+
+  ID    : a_1a1
+  Title : Switching between basic mode in Vim
+  Date  : 2022-3-21 14:02
+
+---
+
+#vim-basics
+
+To switch between mode in vim each mode has it's own set of key that leads to
+one mode or another. The normal mode is like the "central" mode as it is the one
+we are most in.
+
+Mode in	    | Keys	      | Mode next
+Normal	    | [iaIAoOs]       | Insert
+Insert	    | <C-C> or <ESC>  | Normal
+Normal	    | [vV] or <C-V>   | Visual
+Visual	    | <C-C> or <ESC>  | Normal
+Normal	    | [:/]	      | Command
+Command	    | <C-C> or <ESC>  | Normal
+
+References
+  - The vim help documentation
+

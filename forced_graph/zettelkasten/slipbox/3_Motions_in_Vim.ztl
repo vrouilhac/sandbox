@@ -1,0 +1,43 @@
+---
+
+  ID    : a_3
+  Title : Motion in Vim
+  Date  : 2022-3-21 18:52
+
+---
+
+#vim-motions
+
+A motion is a key or combinaison of key that moves the cursor, and that can be
+use with other commands to perform actions.
+
+w   : moves the cursor to the next word
+W   : moves the cursor to "full" next word (e.g. word1.word2;Word3, 'w' will
+move it word to word, while 'W' will move through all without stopping to '.' or
+';'
+e   : moves the cursor to the end of current word or end of next word
+E   : moves the cursor to the end of current word or end of next word ignoring
+symbols
+b   : moves the cursor to the begining of word (or previous) 
+j   : moves the cursor one line down
+k   : moves the cursor one line up
+l   : moves the cursor one letter right
+h   : moves the cursor one letter left
+0   : moves the cursor to begining of line
+^   : moves the cursor to first non-whitespace character of line
+$   : moves the cursor to end of a line
+f   : moves the cursor to next occurence of a char (in current line)
+F   : moves to previous occurence of a char (in current line)
+t   : moves to next occurence of a char (in current line but the cursor stops
+before the char)
+T   : moves to next occurence of a char (in current line but the cursor stops
+before the char)
+;   : repeat last command for f, F, t, T
+,   : repeat last command for f, F, t, T but in opposite direction
+gg  : goes to the top of file
+G   : goes to the bottom of a file
+
+References:
+  - The vim documentation (:h motion)
+  - 
+

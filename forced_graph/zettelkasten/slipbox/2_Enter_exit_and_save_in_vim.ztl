@@ -1,0 +1,20 @@
+---
+
+  ID    : a_2
+  Title : Enter, exit and save with vim
+  Date  : 2022-3-21 13:55
+
+---
+
+#vim-basics
+
+To enter vim we just have to enter in the terminal `$ vim` and vim will start in
+the current directory with a blank 'file'.
+
+To exit vim the simplest way is to press `:q` and it will quit the editor, and
+to save it we can use `:w`. Both can be combined to save and quit `:wq`.
+
+References:
+  - The vim help documentation
+  - 
+

@@ -11,3 +11,10 @@ fn main() {
     None => -1,
   });
 }
+
+// Need to learn lifetime dude
+// fn comput() -> HashMap<&str, i32> {
+//     let mut testing = HashMap::new();
+//     testing.insert("test", 23);
+//     testing
+// }
